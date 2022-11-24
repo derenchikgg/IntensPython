@@ -1,3 +1,5 @@
-x = int(input("Введите число: "))
-y = 17*x**2-6*x+13
-print("Ответ:", y)
+import math
+print("Input x")
+x=int(input())
+y=17*x**2-6*x+13
+print("y =", y)
