@@ -1,0 +1,3 @@
+string = "СПАРТАК"
+len(string)
+print(len(string))
