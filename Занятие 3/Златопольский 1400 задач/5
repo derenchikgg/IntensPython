@@ -1,0 +1,8 @@
+a = [1, 2, 1, 3, 2, 4]
+ count = 0
+na = [-101]+a+[-101]
+ for i in range(len(a)):
+    slc = na[i: i+3]
+    if slc[0] < slc[1] > slc[2]:
+        count += 1
+ print(count)
