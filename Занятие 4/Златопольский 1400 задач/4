@@ -1,0 +1,6 @@
+def draw_box():
+    print('*' * 60)
+    for i in range(20):
+        print('*', ' ' * 58, '*', sep='')
+    print('*' * 60)
+draw_box()
