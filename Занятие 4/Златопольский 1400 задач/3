@@ -1,0 +1,4 @@
+def draw_figure():
+    for i in range(20):
+        print('*' * 60)
+draw_figure()
