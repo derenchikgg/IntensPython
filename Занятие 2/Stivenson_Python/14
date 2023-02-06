@@ -1,0 +1,17 @@
+m = input("Введите сообщение: ")
+s = int(input("Введите сдвиг: "))
+nm = ""
+for ch in m:
+    if ch >= "a" and ch <= "z":
+        p = ord(ch) - ord("a")
+        p = (p + s) % 26
+        nc = chr(p + ord("a"))
+        nm = nm + nc
+    elif ch >= "A" and ch <= "Z":
+        p = ord(ch) - ord("A")
+        p = (p + s) % 26
+        nc = chr(p + ord("A"))
+        nm = nm + nc
+    else:
+        nm = nm + ch
+print("Новое сообщение", nm)
