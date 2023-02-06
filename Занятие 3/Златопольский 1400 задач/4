@@ -1,0 +1,6 @@
+n=int(input())
+arr=[0 for i in range(n)]
+for i in range(n):
+    arr[i]=int(input())
+for a in reversed(arr):
+    print(a,end=' ')
