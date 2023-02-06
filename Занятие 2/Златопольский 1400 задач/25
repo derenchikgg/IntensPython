@@ -1,0 +1,2 @@
+from random import randint as rnd
+print(*[rnd(1,10) for _ in range(12)])
