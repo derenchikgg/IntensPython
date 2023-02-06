@@ -1,0 +1,4 @@
+sum_ = 0
+for i in range(200,600):
+    sum_ += i
+print(sum_)
