@@ -1,0 +1,13 @@
+from random import random
+m = int(input("введите число m: "))
+def average(a):
+    s = 0
+    for i in range(m):
+        s += a[i]
+    return s/m
+arr = [0] * m
+for i in range(m):
+    arr[i] = int(random() * 100)
+b = average(arr)
+print(arr)
+print(b)
