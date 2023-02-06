@@ -1,0 +1,8 @@
+string = "Панченко"
+string1 = "Путин"
+a = len(string)
+b = len(string1)
+if a > b:
+    print(string)
+else:
+    print(string1)
