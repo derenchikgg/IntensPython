@@ -1,0 +1,5 @@
+lst = [3, 2, 8, 5, 10, 6]
+m = max(lst)
+n = min(lst)
+x = m - n
+print("Разница:", x)
