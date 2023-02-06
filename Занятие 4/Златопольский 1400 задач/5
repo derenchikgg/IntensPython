@@ -1,0 +1,6 @@
+h = int(input("Введите высоту: "))
+a = int(input("Введите ширину: "))
+def draw_figure():
+    for i in range(h):
+        print('*' * a)
+draw_figure()
