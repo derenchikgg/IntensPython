@@ -1,0 +1,4 @@
+def f(x): return sum(map(int,str(x)))
+res = [int(input('Введите первое число: ')),int(input('Введите второе число: '))]
+n = list(map(f,res))
+print(res[n.index(max(n))])
